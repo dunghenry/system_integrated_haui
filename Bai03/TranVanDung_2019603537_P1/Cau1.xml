@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cau1.xslt" type="text/xsl"?>
+<DS>
+    <HoaDon>
+        <MaHD>HD1</MaHD>
+        <NgayBan>2015-11-09</NgayBan>
+        <LoaiHang MaLoai="A" TenLoai="Dien tu">
+            <Hang MaHang="H1">
+                <TenHang>Ti vi</TenHang>
+                <SoLuong>60</SoLuong>
+                <DonViTinh>Chiec</DonViTinh>
+                <DonGia>6000000</DonGia>
+            </Hang>
+            <Hang MaHang="H2">
+                <TenHang>Tu lanh</TenHang>
+                <SoLuong>80</SoLuong>
+                <DonViTinh>Chiec</DonViTinh>
+                <DonGia>4200000</DonGia>
+            </Hang>
+        </LoaiHang>
+        <NguoiGiao>TranVanDung</NguoiGiao>
+    </HoaDon>
+</DS>

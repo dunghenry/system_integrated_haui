@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kqht>
+    <namhoc nam="2009">
+        <lop malop="ktpm5-k9" gvcn="Linh">
+            <sv>
+                <info>
+                    <hoten>duc</hoten>
+                    <ngaysinh>1997</ngaysinh>
+                </info>
+                <monhoc>
+                    <mon tenmon="toan" stt="1">
+                        <Diem>
+                            <lan1>5</lan1>
+                            <lan1>6</lan1>
+                            <canam>8</canam>
+                        </Diem>
+                    </mon>
+                    <mon tenmon="van" stt="2">
+                        <Diem>
+                            <lan1>7</lan1>
+                            <lan2>8</lan2>
+                            <canam>4</canam>
+                        </Diem>
+                    </mon>
+                    <mon tenmon="Ngoaingu" stt="3">
+                        <Diem>
+                            <lan1>3</lan1>
+                            <lan2>5</lan2>
+                            <canam>5</canam>
+                        </Diem>
+                    </mon>
+                    <mon tenmon="Su" stt="4">
+                        <Diem>
+                            <lan1>2</lan1>
+                            <lan2>5</lan2>
+                            <canam>3</canam>
+                        </Diem>
+                    </mon>
+                    <mon tenmon="Sinh" stt="5">
+                        <Diem>
+                            <lan1>8</lan1>
+                            <lan2>8</lan2>
+                            <canam>4</canam>
+                        </Diem>
+                    </mon>
+                    <mon tenmon="Tongket" stt="6">
+                        <Diem>
+                            <lan1>6</lan1>
+                            <lan2>7</lan2>
+                            <canam>7</canam>
+                        </Diem>
+                    </mon>
+                </monhoc>
+                <xeploai>
+                    <hocluc>Trung binh</hocluc>
+                    <hanhkiem>Kha</hanhkiem>
+                </xeploai>
+            </sv>
+        </lop>
+    </namhoc>
+</kqht>

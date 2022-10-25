@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema id="XMLSchema1" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:complexType name="nhomType">
+        <xs:sequence>
+            <xs:element name="thoigian" type="xs:time" minOccurs="1" maxOccurs="1"></xs:element>
+            <xs:element name="hang" type="xs:double" minOccurs="1" maxOccurs="1"></xs:element>
+            <xs:element name="diadiem" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+            <xs:element name="baocao" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="doituong" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="ngay" type="xs:date" use="required"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

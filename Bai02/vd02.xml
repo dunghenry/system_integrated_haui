@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<THUVIEN>
+    <SACH>
+        <MASACH ms="001">001</MASACH>
+        <TENSACH>Cơ sở dữ liệu</TENSACH>
+    </SACH>
+    <SACH>
+        <MASACH ms="002">002</MASACH>
+        <TENSACH>Lập trình C</TENSACH>
+    </SACH>
+</THUVIEN>

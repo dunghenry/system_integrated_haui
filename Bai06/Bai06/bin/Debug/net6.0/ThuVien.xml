@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<thuvien>
+	<cuonsach masach="j01" theloai="Cong nghe thong tin">
+		<tensach>Lap trinh Java</tensach>
+		<sotrang>500</sotrang>
+		<tacgia>
+			<hoten>Nguyen Dang Hoang</hoten>
+			<dienthoai>09876548</dienthoai>
+		</tacgia>
+		<giatien>350</giatien>
+	</cuonsach>
+	<cuonsach masach="c03" theloai="Cong nghe thong tin">
+		<tensach>Cau truc du lieu va giai thuat</tensach>
+		<sotrang>450</sotrang>
+		<tacgia>
+			<hoten>Le Mai Anh</hoten>
+			<dienthoai>09345681</dienthoai>
+		</tacgia>
+		<giatien>400</giatien>
+	</cuonsach>
+</thuvien>

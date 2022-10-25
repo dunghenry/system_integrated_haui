@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company xmlns="http://tempuri.org/XMLSchema2.xsd">
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+    <employee id="E01" gender="male">
+        <name>TranDung</name>
+        <userid>A12345</userid>
+        <phone>086-677-8584</phone>
+        <salary>1000-2000</salary>
+        <address>Kim Son - Ninh Binh</address>
+    </employee>
+</company>

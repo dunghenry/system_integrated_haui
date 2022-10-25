@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datn>
+    <so>121</so>
+    <khoa tenkhoa="CNTT">
+        <lop malop="HTTT2">
+            <hocsinh>
+                <info>
+                    <hoten>Nguyen Van Bac</hoten>
+                    <khoa makhoa="K10">10</khoa>
+                </info>
+            </hocsinh>
+            <gvhd>Tran Thanh Hung</gvhd>
+        </lop>
+    </khoa>
+    <noidung>
+        <banve tenbanve="A" stt="1">
+            <khogiay>A3</khogiay>
+            <soluong>5</soluong>
+        </banve>
+        <banve tenbanve="B" stt="2">
+            <khogiay>A4</khogiay>
+            <soluong>5</soluong>
+        </banve>
+        <banve tenbanve="C" stt="3">
+            <khogiay>A1</khogiay>
+            <soluong>1</soluong>
+        </banve>
+        <banve tenbanve="D" stt="4">
+            <khogiay>A0</khogiay>
+            <soluong>1</soluong>
+        </banve>
+    </noidung>
+    <thuyetminh>
+        abc
+    </thuyetminh>
+    <thoigian>
+        <ngaygiaode>2-9-2017</ngaygiaode>
+        <ngayhoanthanh>3-9-2017</ngayhoanthanh>
+    </thoigian>
+    <chuky>
+        <gvhd></gvhd>
+        <hieutruong></hieutruong>
+    </chuky>
+</datn>

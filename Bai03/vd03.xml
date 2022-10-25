@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="vd03.xslt" type="text/xsl"?>
+<DSSV>
+    <sv masv="1">
+        <hoten>Nguyen Van A</hoten>
+        <diem>7</diem>
+    </sv>
+    <sv masv="2">
+        <hoten>Le Thi B</hoten>
+        <diem>4</diem>
+    </sv>
+    <sv masv="3">
+        <hoten>Dao Van C</hoten>
+        <diem>9</diem>
+    </sv>
+</DSSV>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Schema -->
+<!--
+xs:ID
+xs:boolean
+xs:binary - Kiểu nhị phân
+xs:number - Kiểu số nguyên/Số thực
+xs:date - Kiểu ngày tháng 2022 - 02 - 19
+xs:string - Kiểu xâu kí tự
+xs:integer - Số nguyên
+xs:decimal - Số thự
+xs:time - Kiểu thời gian
+...
+-->
+
+<!-- Kiểu dữ liệu người dùng tự tạo -->
+<xs:schema id="XMLSchema1" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:simpleType name="diemType">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0"></xs:minExclusive>
+            <xs:maxExclusive value="10"></xs:maxExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nameType">
+        <xs:restriction id="name_id" base="xs:string"></xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="gtType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Nam"></xs:enumeration>
+            <xs:enumeration value="Nu"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="diemtoan" type="diemType"></xs:element>
+    <xs:element name="diemvan" type="diemType"></xs:element>
+    <xs:element name="diemhoa" type="diemType"></xs:element>
+</xs:schema> <!-- name: Tên phần tử, type: Kiểu dữ liệu của phần tử, id: Định danh của phần tử, maxOccurs: Số lần xuất hiện tối đa, minOccurs: Số lần xuất hiện tối thiểu ref: Tham chiếu tới phần khác -->
+
+<!-- constraint -->
+<!-- enumration – danh sách các giá trị hợp lệ
+fractionDigits – số chữ số phần thập phân, >=0
+length – số lượng ký tự, >=0
+maxExclusive – Cận trên của giá trị kiểu số (<null>=)
+maxLength – số kỹ tự tối đa của 1 chuỗi (>=0)
+minLength – số ký tự tối thiểu của 1 chuỗi (>=0)
+maxInclusive – Cận trên của giá trị kiểu số (<null>)
+pattern – Chính xác Các ký tự hợp lệ
+totalDigits – chính xác số các chữ số được chấp nhận (>=0)
+whiteSpace – định nghĩa ràng buộc dấu cách -->
+
+<!-- <xs:enumration value= ”giá trị 1”>
+<xs:enumration value= ”giá trị 2”> -->
+
+
+<!-- pattern: [0-9] -> 1 kí tự từ 0 đến 9, [a..z] - 1 kí tự từ a đến z \d - 1 số, * xuất hiện 1 hoặc nhiều lần, {n} quy định số lần xuất hiện, ? xuất hiện 0 hoặc nhiều lần, \w là 1 chữ, | chọn cái này hoặc cái khác-->
+
+<!-- VD mật khẩu 4 kí tự đầu tiên là a or b , sau là 3 số -->
+<!-- <xs:pattern value="[ab]\d{3}"></xs:pattern> -->

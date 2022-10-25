@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class xmlns="http://tempuri.org/XMLSchema1.xsd">
+    <student>
+        <sid>S123</sid>
+        <name>DungTran</name>
+        <dob>2001-01-01</dob>
+        <mark>5</mark>
+    </student>
+    <student>
+        <sid>S125</sid>
+        <name>Dung Henry</name>
+        <dob>2001-03-01</dob>
+        <mark>6</mark>
+    </student>
+</class>

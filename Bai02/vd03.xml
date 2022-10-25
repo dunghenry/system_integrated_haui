@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DSKHACHHANG [
+    <!ENTITY tang1 "105 Tầng 1 - C2 - Mỹ Đình II">
+    <!ENTITY tang2 "205 Tầng 1 - C2 - Mỹ Đình II">
+    <!ENTITY tang3 "305 Tầng 1 - C2 - Mỹ Đình II">
+]>
+
+<DSKHACHHANG>
+    <KHACHHANG>
+        <HOTEN>Tran Van Dung</HOTEN>
+        <DIACHI>&tang1;</DIACHI>
+        <DIENTHOAI>099999999</DIENTHOAI>
+    </KHACHHANG>
+    <KHACHHANG>
+        <HOTEN>Nguyen Thi Mai</HOTEN>
+        <DIACHI>&tang2;</DIACHI>
+        <DIENTHOAI>08888888</DIENTHOAI>
+    </KHACHHANG>
+    <KHACHHANG>
+        <HOTEN>Tran Van B</HOTEN>
+        <DIACHI>&tang3;</DIACHI>
+        <DIENTHOAI>055555555</DIENTHOAI>
+    </KHACHHANG>
+</DSKHACHHANG>

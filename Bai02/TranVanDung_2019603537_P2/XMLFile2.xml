@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSHD xmlns="http://tempuri.org/XMLSchema2.xsd">
+	<HoaDon>
+		<MaHoaDon>HD01</MaHoaDon>
+		<NgayBan>2015-11-09</NgayBan>
+		<LoaiHang MaLoai="A" TenLoai="DienTu">
+			<Hang MaHang="1">
+				<Tenhang>Tivi</Tenhang>
+				<Soluong>60</Soluong>
+				<Donvitinh>chiec</Donvitinh>
+				<Dongia>6000000</Dongia>
+			</Hang>
+			<Hang MaHang="1">
+				<Tenhang>Tivi</Tenhang>
+				<Soluong>60</Soluong>
+				<Donvitinh>chiec</Donvitinh>
+				<Dongia>6000000</Dongia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+</DSHD>

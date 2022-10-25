@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cau2.xslt" type="text/xsl"?>
+<DSK xmlns:xsi="http://tempuri.org/XMLSchema1.xsd">
+    <Khoa>
+        <TenKhoa>AAAAA</TenKhoa>
+        <TruongKhoa>Tran Van A</TruongKhoa>
+        <DSBN>
+            <BenhNhan MSHS="MSHS_1">
+                <HoTen>Tran Van B</HoTen>
+                <DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+                <DienThoai>0866778584</DienThoai>
+                <NgayNhapVien>2005-1-1</NgayNhapVien>
+                <SoNgayNamVien>20</SoNgayNamVien>
+            </BenhNhan>
+            <BenhNhan MSHS="MSHS_2">
+                <HoTen>Vu Thi B</HoTen>
+                <DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+                <DienThoai>0866778584</DienThoai>
+                <NgayNhapVien>2005-1-1</NgayNhapVien>
+                <SoNgayNamVien>20</SoNgayNamVien>
+            </BenhNhan>
+        </DSBN>
+    </Khoa>
+</DSK>

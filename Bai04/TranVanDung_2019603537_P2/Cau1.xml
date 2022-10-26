@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cau1.xslt" type="text/xsl"?>
+<DSHD xmlns:xsi="http://tempuri.org/Cau1.xsd">
+    <HoaDon>
+        <MaHoaDon>HD01</MaHoaDon>
+        <NgayBan>2015-11-09</NgayBan>
+        <LoaiHang MaLoai="A" TenLoai="DienTu">
+            <Hang MaHang="1">
+                <Tenhang>Tivi</Tenhang>
+                <Soluong>60</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>6000000</Dongia>
+            </Hang>
+            <Hang MaHang="1">
+                <Tenhang>Dieu hoa</Tenhang>
+                <Soluong>35</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>15000000</Dongia>
+            </Hang>
+        </LoaiHang>
+        <LoaiHang MaLoai="B" TenLoai="DienTu">
+            <Hang MaHang="3">
+                <Tenhang>Macbook M1 Pro</Tenhang>
+                <Soluong>10</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>50000000</Dongia>
+            </Hang>
+            <Hang MaHang="4">
+                <Tenhang>PC Gaming</Tenhang>
+                <Soluong>20</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>30000000</Dongia>
+            </Hang>
+        </LoaiHang>
+    </HoaDon>
+    <HoaDon>
+        <MaHoaDon>HD02</MaHoaDon>
+        <NgayBan>2022-11-11</NgayBan>
+        <LoaiHang MaLoai="C" TenLoai="DienTu">
+            <Hang MaHang="5">
+                <Tenhang>Iphone 14 Pro Max</Tenhang>
+                <Soluong>10</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>40000000</Dongia>
+            </Hang>
+            <Hang MaHang="6">
+                <Tenhang>May giat</Tenhang>
+                <Soluong>20</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>6000000</Dongia>
+            </Hang>
+        </LoaiHang>
+        <LoaiHang MaLoai="D" TenLoai="DienTu">
+            <Hang MaHang="7">
+                <Tenhang>Samsung Galaxy Z flip</Tenhang>
+                <Soluong>10</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>20000000</Dongia>
+            </Hang>
+            <Hang MaHang="8">
+                <Tenhang>Realme C2</Tenhang>
+                <Soluong>20</Soluong>
+                <Donvitinh>chiec</Donvitinh>
+                <Dongia>3500000</Dongia>
+            </Hang>
+        </LoaiHang>
+    </HoaDon>
+</DSHD>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cau1"
+    targetNamespace="http://tempuri.org/Cau1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Cau1.xsd"
+    xmlns:mstns="http://tempuri.org/Cau1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <xs:simpleType name="mhType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9]{1,6}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="dgType">
+        <xs:restriction base="xs:double">
+            <xs:minExclusive value="0"></xs:minExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="dvType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="goi"></xs:enumeration>
+            <xs:enumeration value="hop"></xs:enumeration>
+            <xs:enumeration value="chiec"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="hangType">
+        <xs:sequence>
+            <xs:element name="Tenhang" type="xs:string"></xs:element>
+            <xs:element name="Soluong" type="xs:int"></xs:element>
+            <xs:element name="Donvitinh" type="dvType"></xs:element>
+            <xs:element name="Dongia" type="dgType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="MaHang" type="mhType"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="LoaiHangType">
+        <xs:sequence>
+            <xs:element name="Hang" type="hangType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="MaLoai" type="xs:string"></xs:attribute>
+        <xs:attribute name="TenLoai" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="HoaDonType">
+        <xs:sequence>
+            <xs:element name="MaHoaDon" type="xs:string"></xs:element>
+            <xs:element name="NgayBan" type="xs:date"></xs:element>
+            <xs:element name="LoaiHang" type="mstns:LoaiHangType" maxOccurs="10"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DSHoaDonType">
+        <xs:sequence>
+            <xs:element name="HoaDon" type="HoaDonType" maxOccurs="4"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="DSHD" type="mstns:DSHoaDonType"></xs:element>
+</xs:schema>

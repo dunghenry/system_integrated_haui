@@ -1,0 +1,18 @@
+<thuvien>
+  <cuonsach masach="j01" theloai="Cong nghe thong tin">
+    <tensach>Lap tring java</tensach>
+    <sotrang>100</sotrang>
+    <tacgia>Nguyen Thi B</tacgia>
+    <hoten>Tran Van A</hoten>
+    <dienthoai>0866778584</dienthoai>
+    <giatien>100000</giatien>
+  </cuonsach>
+  <cuonsach masach="c01" theloai="Cong nghe thong tin">
+    <tensach>Lap tring C</tensach>
+    <sotrang>200</sotrang>
+    <tacgia>Tran Van C</tacgia>
+    <hoten>Tran Van B</hoten>
+    <dienthoai>0866778584</dienthoai>
+    <giatien>50000</giatien>
+  </cuonsach>
+</thuvien>

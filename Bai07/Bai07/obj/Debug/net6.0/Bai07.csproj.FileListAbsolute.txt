@@ -1,0 +1,15 @@
+D:\xml_haui\Bai07\Bai07\bin\Debug\net6.0\Bai07.exe
+D:\xml_haui\Bai07\Bai07\bin\Debug\net6.0\Bai07.deps.json
+D:\xml_haui\Bai07\Bai07\bin\Debug\net6.0\Bai07.runtimeconfig.json
+D:\xml_haui\Bai07\Bai07\bin\Debug\net6.0\Bai07.dll
+D:\xml_haui\Bai07\Bai07\bin\Debug\net6.0\Bai07.pdb
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.csproj.AssemblyReference.cache
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.AssemblyInfoInputs.cache
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.AssemblyInfo.cs
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.csproj.CoreCompileInputs.cache
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.dll
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\refint\Bai07.dll
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.pdb
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\Bai07.genruntimeconfig.cache
+D:\xml_haui\Bai07\Bai07\obj\Debug\net6.0\ref\Bai07.dll

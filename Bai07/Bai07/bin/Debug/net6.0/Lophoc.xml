@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lophoc>
+    <sinhvien masv="sv01">
+        <hoten>Nguyen Thi Anh</hoten>
+        <tuoi>20</tuoi>
+        <diachi>Ha noi</diachi>
+    </sinhvien>
+    <sinhvien masv="sv02">
+        <hoten>Nguyen Thi Binh</hoten>
+        <tuoi>20</tuoi>
+        <diachi>Hai phong</diachi>
+    </sinhvien>
+    <sinhvien masv="sv03">
+        <hoten>Tran Van Tuan</hoten>
+        <tuoi>20</tuoi>
+        <diachi>Ha nam</diachi>
+    </sinhvien>
+</lophoc>

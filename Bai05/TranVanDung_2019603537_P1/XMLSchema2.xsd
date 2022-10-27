@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema2"
+    targetNamespace="http://tempuri.org/XMLSchema2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+   <xs:simpleType name="gtType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Nam"></xs:enumeration>
+            <xs:enumeration value="Nu"></xs:enumeration>
+        </xs:restriction>
+   </xs:simpleType> 
+    <xs:simpleType name="mlType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{4}([0-9]{2})"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="sinhvienType">
+        <xs:sequence>
+            <xs:element name="MaSv" type="xs:string"></xs:element>
+            <xs:element name="TenSv" type="xs:string"></xs:element>
+            <xs:element name="GioiTinh" type="mstns:gtType"></xs:element>
+            <xs:element name="NgaySinh" type="xs:date"></xs:element>
+            <xs:element name="MaLop" type="mstns:mlType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="SinhVienType">
+        <xs:sequence>
+            <xs:element name="SinhVien" type="mstns:sinhvienType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="DSSV" type="mstns:SinhVienType"></xs:element>
+</xs:schema>

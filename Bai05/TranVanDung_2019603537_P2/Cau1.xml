@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cau1.xslt" type="text/xsl"?>
+<DSK xmlns:xsi="http://tempuri.org/XMLSchema1.xsd">
+	<Khoa>
+		<TenKhoa>AAAAA</TenKhoa>
+		<Phong>302</Phong>
+		<DSBN>
+			<BenhNhan MSBN="BN01">
+				<HoTen>Tran Van B</HoTen>
+				<DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhapVien>2001-01-01</NgayNhapVien>
+				<SoNgayNamVien>20</SoNgayNamVien>
+			</BenhNhan>
+			<BenhNhan MSBN="BN02">
+				<HoTen>Tran Van B</HoTen>
+				<DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhapVien>2001-01-01</NgayNhapVien>
+				<SoNgayNamVien>20</SoNgayNamVien>
+			</BenhNhan>
+		</DSBN>
+	</Khoa>
+	<Khoa>
+		<TenKhoa>BBBBB</TenKhoa>
+		<Phong>402</Phong>
+		<DSBN>
+			<BenhNhan MSBN="BN03">
+				<HoTen>Tran Van B</HoTen>
+				<DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhapVien>2001-01-01</NgayNhapVien>
+				<SoNgayNamVien>20</SoNgayNamVien>
+			</BenhNhan>
+			<BenhNhan MSBN="BN04">
+				<HoTen>Tran Van B</HoTen>
+				<DiaChi>NhuHoa - Kim Son - Ninh Binh</DiaChi>
+				<GioiTinh>Nam</GioiTinh>
+				<NgayNhapVien>2001-01-01</NgayNhapVien>
+				<SoNgayNamVien>20</SoNgayNamVien>
+			</BenhNhan>
+		</DSBN>
+	</Khoa>
+</DSK>

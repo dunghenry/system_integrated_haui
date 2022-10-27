@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cau2.xslt" type="text/xsl"?>
+<DSMH xmlns:xsi="http://tempuri.org/XMLSchema2.xsd">
+    <MonHoc>
+        <MaSv>sv01</MaSv>
+        <MaMh>THDC</MaMh>
+        <DiemThi>8</DiemThi>
+    </MonHoc>
+    <MonHoc>
+        <MaSv>sv01</MaSv>
+        <MaMh>THVP</MaMh>
+        <DiemThi>9.5</DiemThi>
+    </MonHoc>
+    <MonHoc>
+        <MaSv>sv02</MaSv>
+        <MaMh>THDC</MaMh>
+        <DiemThi>5.5</DiemThi>
+    </MonHoc>
+    <MonHoc>
+        <MaSv>sv02</MaSv>
+        <MaMh>THVP</MaMh>
+        <DiemThi>10</DiemThi>
+    </MonHoc>
+    <MonHoc>
+        <MaSv>sv03</MaSv>
+        <MaMh>THDC</MaMh>
+        <DiemThi>9</DiemThi>
+    </MonHoc>
+    <MonHoc>
+        <MaSv>sv03</MaSv>
+        <MaMh>THVP</MaMh>
+        <DiemThi>4.5</DiemThi>
+    </MonHoc>
+</DSMH>

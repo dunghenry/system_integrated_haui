@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="Cau1.xslt" type="text/xsl"?>
+<DSLH>
+    <LopHoc>
+        <MaLop>CNTT14</MaLop>
+        <TenLop>Cong nghe thong tin 2014</TenLop>
+    </LopHoc>
+    <LopHoc>
+        <MaLop>TCKT14</MaLop>
+        <TenLop>Tai chinh ke toan 2014</TenLop>
+    </LopHoc>
+    <LopHoc>
+        <MaLop>TKDH14</MaLop>
+        <TenLop>Thiet ke do hoa 2014</TenLop>
+    </LopHoc>
+</DSLH>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cau1"
+    targetNamespace="http://tempuri.org/Cau1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Cau1.xsd"
+    xmlns:mstns="http://tempuri.org/Cau1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <xs:simpleType name="nhType">
+        <xs:restriction base="xs:gYear">
+            <xs:minInclusive value="1990" />
+            <xs:maxInclusive value="2020" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="msvType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="htType">
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="lType">
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="nsType">
+        <xs:restriction base="xs:date"></xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="gvcnType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Tran Mai Linh"></xs:enumeration>
+            <xs:enumeration value="Dang Thi Nhung"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="diemType">
+        <xs:restriction base="xs:double">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="10"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="xlhlType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Trung binh"></xs:enumeration>
+            <xs:enumeration value="Kha"></xs:enumeration>
+            <xs:enumeration value="Gioi"></xs:enumeration>
+            <xs:enumeration value="Yeu"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="xlhkType">
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="DiemType">
+        <xs:sequence>
+            <xs:element name="Diemlan1" type="mstns:diemType"></xs:element>
+            <xs:element name="Diemlan2" type="mstns:diemType"></xs:element>
+            <xs:element name="Canam" type="mstns:diemType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="Tenmon" type="xs:string"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="monhocType">
+        <xs:sequence>
+            <xs:element name="Mon" type="mstns:DiemType" minOccurs="3" maxOccurs="5"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="svType">
+        <xs:sequence>
+            <xs:element name="Namhoc" type="mstns:nhType"></xs:element>
+            <xs:element name="Hoten" type="mstns:htType"></xs:element>
+            <xs:element name="Ngaysinh" type="mstns:nsType"></xs:element>
+            <xs:element name="DSM" type="mstns:monhocType"></xs:element>
+            <xs:element name="Xeploaihocluc" type="mstns:xlhlType"></xs:element>
+            <xs:element name="Xeploaihanhkiem" type="mstns:xlhkType"></xs:element>
+            <xs:element name="Giaovienchunhiem" type="mstns:gvcnType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="MaSV" type="mstns:msvType"></xs:attribute>
+        <xs:attribute name="Lop" type="mstns:lType"></xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="SinhVienType">
+        <xs:sequence>
+            <xs:element name="Sinhvien" type="mstns:svType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="DSSV" type="mstns:SinhVienType"></xs:element>
+</xs:schema>

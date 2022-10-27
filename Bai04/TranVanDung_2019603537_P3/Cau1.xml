@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns="http://tempuri.org/Cau1.xsd">
+    <Sinhvien MaSV="20196035" Lop="KTPM02-K14">
+        <Namhoc>2009</Namhoc>
+        <Hoten>TranDung</Hoten>
+        <Ngaysinh>2001-08-30</Ngaysinh>
+        <DSM>
+            <Mon Tenmon="Toan">
+                <Diemlan1>5</Diemlan1>
+                <Diemlan2>5</Diemlan2>
+                <Canam>5</Canam>
+            </Mon>
+            <Mon Tenmon="Van">
+                <Diemlan1>5</Diemlan1>
+                <Diemlan2>5</Diemlan2>
+                <Canam>5</Canam>
+            </Mon>
+            <Mon Tenmon="Ngoai ngu">
+                <Diemlan1>5</Diemlan1>
+                <Diemlan2>5</Diemlan2>
+                <Canam>5</Canam>
+            </Mon>
+        </DSM>
+        <Xeploaihocluc>Kha</Xeploaihocluc>
+        <Xeploaihanhkiem>Kha</Xeploaihanhkiem>
+        <Giaovienchunhiem>Tran Mai Linh</Giaovienchunhiem>
+    </Sinhvien>
+</DSSV>

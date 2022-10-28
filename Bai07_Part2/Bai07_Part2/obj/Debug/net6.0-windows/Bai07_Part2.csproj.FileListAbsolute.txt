@@ -1,0 +1,17 @@
+D:\xml_haui\Bai07_Part2\Bai07_Part2\bin\Debug\net6.0-windows\Bai07_Part2.exe
+D:\xml_haui\Bai07_Part2\Bai07_Part2\bin\Debug\net6.0-windows\Bai07_Part2.deps.json
+D:\xml_haui\Bai07_Part2\Bai07_Part2\bin\Debug\net6.0-windows\Bai07_Part2.runtimeconfig.json
+D:\xml_haui\Bai07_Part2\Bai07_Part2\bin\Debug\net6.0-windows\Bai07_Part2.dll
+D:\xml_haui\Bai07_Part2\Bai07_Part2\bin\Debug\net6.0-windows\Bai07_Part2.pdb
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.csproj.AssemblyReference.cache
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.Form1.resources
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.csproj.GenerateResource.cache
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.AssemblyInfoInputs.cache
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.AssemblyInfo.cs
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.csproj.CoreCompileInputs.cache
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.dll
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\refint\Bai07_Part2.dll
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.pdb
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\Bai07_Part2.genruntimeconfig.cache
+D:\xml_haui\Bai07_Part2\Bai07_Part2\obj\Debug\net6.0-windows\ref\Bai07_Part2.dll

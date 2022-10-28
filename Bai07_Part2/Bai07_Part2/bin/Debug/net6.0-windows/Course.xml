@@ -1,0 +1,17 @@
+<course>
+  <student id="sv01">
+    <name>Trần Văn A</name>
+    <age>21</age>
+    <city>Hà Nội</city>
+  </student>
+  <student id="sv02">
+    <name>Trần Thị B</name>
+    <age>18</age>
+    <city>Hà Nam</city>
+  </student>
+  <student id="sv03">
+    <name>Trần Văn C</name>
+    <age>25</age>
+    <city>Hà Nội</city>
+  </student>
+</course>

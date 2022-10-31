@@ -1,0 +1,16 @@
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>stk01</sotaikhoan>
+    <tentaikhoan>Tran Dung</tentaikhoan>
+    <diachi>Ninh Binh</diachi>
+    <dienthoai>0866778584</dienthoai>
+    <sotien>100000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>stk02</sotaikhoan>
+    <tentaikhoan>Quach Dung Update</tentaikhoan>
+    <diachi>Ha Noi</diachi>
+    <dienthoai>0123456789</dienthoai>
+    <sotien>1000000</sotien>
+  </taikhoan>
+</nganhang>

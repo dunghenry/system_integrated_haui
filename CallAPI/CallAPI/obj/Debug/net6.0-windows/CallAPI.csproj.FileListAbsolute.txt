@@ -1,0 +1,17 @@
+D:\xml_haui\CallAPI\CallAPI\bin\Debug\net6.0-windows\CallAPI.exe
+D:\xml_haui\CallAPI\CallAPI\bin\Debug\net6.0-windows\CallAPI.deps.json
+D:\xml_haui\CallAPI\CallAPI\bin\Debug\net6.0-windows\CallAPI.runtimeconfig.json
+D:\xml_haui\CallAPI\CallAPI\bin\Debug\net6.0-windows\CallAPI.dll
+D:\xml_haui\CallAPI\CallAPI\bin\Debug\net6.0-windows\CallAPI.pdb
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.csproj.AssemblyReference.cache
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.Form1.resources
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.csproj.GenerateResource.cache
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.AssemblyInfoInputs.cache
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.AssemblyInfo.cs
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.csproj.CoreCompileInputs.cache
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.dll
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\refint\CallAPI.dll
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.pdb
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\CallAPI.genruntimeconfig.cache
+D:\xml_haui\CallAPI\CallAPI\obj\Debug\net6.0-windows\ref\CallAPI.dll

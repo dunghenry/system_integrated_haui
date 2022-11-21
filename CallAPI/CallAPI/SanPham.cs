@@ -11,9 +11,9 @@ namespace CallAPI
     public class SanPham
     {
         public int Ma { get; set; }
-       
+
         public string Ten { get; set; }
-    
+
         public int DonGia { get; set; }
     }
 }

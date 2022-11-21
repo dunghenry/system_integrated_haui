@@ -1,0 +1,17 @@
+D:\xml_haui\UpdateProduct\UpdateProduct\bin\Debug\net6.0-windows\UpdateProduct.exe
+D:\xml_haui\UpdateProduct\UpdateProduct\bin\Debug\net6.0-windows\UpdateProduct.deps.json
+D:\xml_haui\UpdateProduct\UpdateProduct\bin\Debug\net6.0-windows\UpdateProduct.runtimeconfig.json
+D:\xml_haui\UpdateProduct\UpdateProduct\bin\Debug\net6.0-windows\UpdateProduct.dll
+D:\xml_haui\UpdateProduct\UpdateProduct\bin\Debug\net6.0-windows\UpdateProduct.pdb
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.csproj.AssemblyReference.cache
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.Form1.resources
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.csproj.GenerateResource.cache
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.AssemblyInfoInputs.cache
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.AssemblyInfo.cs
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.csproj.CoreCompileInputs.cache
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.dll
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\refint\UpdateProduct.dll
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.pdb
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\UpdateProduct.genruntimeconfig.cache
+D:\xml_haui\UpdateProduct\UpdateProduct\obj\Debug\net6.0-windows\ref\UpdateProduct.dll

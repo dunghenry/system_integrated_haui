@@ -86,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\DanhMucController.cs" />
     <Compile Include="Controllers\SanPhamController.cs" />
     <Compile Include="DB.designer.cs">
       <AutoGen>True</AutoGen>

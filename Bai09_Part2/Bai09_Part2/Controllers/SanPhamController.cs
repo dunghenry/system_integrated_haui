@@ -92,6 +92,7 @@ namespace Bai09_Part2.Controllers
                 sp.Ma = masp;
                 sp.Ten = ten;
                 sp.DonGia = dg;
+
                 sp.MaDanhMuc = madm;
                 db.SanPhams.InsertOnSubmit(sp);
                 db.SubmitChanges();

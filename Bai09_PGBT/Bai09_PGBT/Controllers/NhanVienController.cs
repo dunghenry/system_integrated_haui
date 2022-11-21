@@ -89,5 +89,53 @@ namespace Bai09_PGBT.Controllers
             }
             return null;
         }
+        [HttpDelete]
+
+        public bool XoaNhanVien(int manv)
+        {
+            try
+            {
+                DataBaseDataContext db = new DataBaseDataContext();
+                NhanVien nv = db.NhanViens.FirstOrDefault(x => x.Ma == manv);
+                db.NhanViens.DeleteOnSubmit(nv);
+                db.SubmitChanges();
+                return true;
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return false;
+        }
+
+        public bool SuaNhanVien(int manv, string hoten, string ns, string gt, double hsl, int madv)
+        {
+            try
+            {
+                DataBaseDataContext dataContext = new DataBaseDataContext();
+                NhanVien nv = dataContext.NhanViens.FirstOrDefault(x => x.Ma == manv);
+                if(nv != null)
+                {
+                    nv.HoTen = hoten;
+                    nv.NgaySinh = DateTime.Parse(ns);
+                    nv.GioiTinh = gt;
+                    nv.Hesluong = (decimal)hsl;
+                    nv.MaDonVi = madv;
+                    dataContext.SubmitChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+               
+            }
+            catch(Exception e)
+            {
+
+            }
+            return false;
+        }
     }
 }

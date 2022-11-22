@@ -1,0 +1,17 @@
+D:\xml_haui\Bai11_P1\Bai11_P1\bin\Debug\net6.0-windows\Bai11_P1.exe
+D:\xml_haui\Bai11_P1\Bai11_P1\bin\Debug\net6.0-windows\Bai11_P1.deps.json
+D:\xml_haui\Bai11_P1\Bai11_P1\bin\Debug\net6.0-windows\Bai11_P1.runtimeconfig.json
+D:\xml_haui\Bai11_P1\Bai11_P1\bin\Debug\net6.0-windows\Bai11_P1.dll
+D:\xml_haui\Bai11_P1\Bai11_P1\bin\Debug\net6.0-windows\Bai11_P1.pdb
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.csproj.AssemblyReference.cache
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.Form1.resources
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.csproj.GenerateResource.cache
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.AssemblyInfoInputs.cache
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.AssemblyInfo.cs
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.csproj.CoreCompileInputs.cache
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.dll
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\refint\Bai11_P1.dll
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.pdb
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\Bai11_P1.genruntimeconfig.cache
+D:\xml_haui\Bai11_P1\Bai11_P1\obj\Debug\net6.0-windows\ref\Bai11_P1.dll

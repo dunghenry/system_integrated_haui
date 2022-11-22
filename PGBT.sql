@@ -23,6 +23,10 @@ CREATE TABLE NhanVien(
 )
 
 
+--Update data type column Hesoluong
+ALTER TABLE NhanVien
+ALTER COLUMN Hesluong float
+
 SELECT GETDATE()
 
 
@@ -37,6 +41,17 @@ INSERT INTO NhanVien VALUES(2, N'Tran Van B', N'2001-08-30', N'Nu', 1.5, 2)
 
 INSERT INTO NhanVien VALUES(3, N'Tran Van C', N'2001-08-30', N'Nam', 1.5, 1)
 
+INSERT INTO NhanVien VALUES(4, N'Tran Van D', N'2001-05-10', N'Nam', 3.5, 1)
+
 SELECT * FROM DonVi
 
 SELECT * FROM NhanVien
+
+
+--Delete all records table NhanVien
+DELETE FROM NhanVien
+
+
+UPDATE DonVi
+SET TenDonVi = N'Don vi 5'
+WHERE MaDonVi=5

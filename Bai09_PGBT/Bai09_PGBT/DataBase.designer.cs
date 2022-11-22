@@ -39,7 +39,7 @@ namespace Bai09_PGBT
     #endregion
 		
 		public DataBaseDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["QLLuongConnectionString"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["QLLuongConnectionString1"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
@@ -213,7 +213,7 @@ namespace Bai09_PGBT
 		
 		private string _GioiTinh;
 		
-		private System.Nullable<decimal> _Hesluong;
+		private System.Nullable<double> _Hesluong;
 		
 		private System.Nullable<int> _MaDonVi;
 		
@@ -231,7 +231,7 @@ namespace Bai09_PGBT
     partial void OnNgaySinhChanged();
     partial void OnGioiTinhChanging(string value);
     partial void OnGioiTinhChanged();
-    partial void OnHesluongChanging(System.Nullable<decimal> value);
+    partial void OnHesluongChanging(System.Nullable<double> value);
     partial void OnHesluongChanged();
     partial void OnMaDonViChanging(System.Nullable<int> value);
     partial void OnMaDonViChanged();
@@ -323,8 +323,8 @@ namespace Bai09_PGBT
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Hesluong", DbType="Decimal(3,2)")]
-		public System.Nullable<decimal> Hesluong
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Hesluong", DbType="Float")]
+		public System.Nullable<double> Hesluong
 		{
 			get
 			{

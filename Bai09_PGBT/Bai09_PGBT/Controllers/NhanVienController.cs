@@ -65,7 +65,7 @@ namespace Bai09_PGBT.Controllers
         }
 
         [HttpPost]
-        public NhanVien ThemNhanVien(int manv, string hoten, string ns, string gt, double hsl, int madv)
+        public bool ThemNhanVien(int manv, string hoten, string ns, string gt, float hsl, int madv)
         {
             try
             {
@@ -75,19 +75,19 @@ namespace Bai09_PGBT.Controllers
                 nv.HoTen = hoten;
                 nv.NgaySinh = DateTime.Parse(ns);
                 nv.GioiTinh = gt;
-                nv.Hesluong = (decimal) hsl;
+                nv.Hesluong = (float) hsl;
                 nv.MaDonVi = madv;
                 dataContext.NhanViens.InsertOnSubmit(nv);
                 dataContext.SubmitChanges();
                 nv.DonVi = null;
-                return nv;
+                return true;
                 
             }
             catch(Exception e)
             {
                 Console.WriteLine(e);
             }
-            return null;
+            return false;
         }
         [HttpDelete]
 
@@ -108,8 +108,8 @@ namespace Bai09_PGBT.Controllers
             }
             return false;
         }
-
-        public bool SuaNhanVien(int manv, string hoten, string ns, string gt, double hsl, int madv)
+        [HttpPut]
+        public bool SuaNhanVien(int manv, string hoten, string ns, string gt, float hsl, int madv)
         {
             try
             {
@@ -120,7 +120,7 @@ namespace Bai09_PGBT.Controllers
                     nv.HoTen = hoten;
                     nv.NgaySinh = DateTime.Parse(ns);
                     nv.GioiTinh = gt;
-                    nv.Hesluong = (decimal)hsl;
+                    nv.Hesluong = (float)hsl;
                     nv.MaDonVi = madv;
                     dataContext.SubmitChanges();
                     return true;
@@ -133,7 +133,7 @@ namespace Bai09_PGBT.Controllers
             }
             catch(Exception e)
             {
-
+                Console.WriteLine(e);
             }
             return false;
         }

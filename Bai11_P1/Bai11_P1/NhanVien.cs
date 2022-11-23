@@ -13,7 +13,7 @@ namespace Bai11_P1
         public string NgaySinh { get; set; }
         public  string GioiTinh { get; set; }
         public float Hesluong { get; set; }
+
         //public int MaDonVi { get; set; }
-        
     }
 }

@@ -249,5 +249,96 @@ namespace Bai11_P1
                 MessageBox.Show("Sua nhan vien that bai");
             }
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DonVi dv = new DonVi();
+            dv.MaDonVi = Int32.Parse(txtMaDV.Text);
+            dv.TenDonVi = txtTenDV.Text;
+            string updateDonVi = string.Format("?madv={0}&tendv={1}", dv.MaDonVi, dv.TenDonVi);
+            string link = "http://localhost/qlluong/api/donvi/" + updateDonVi;
+            HttpWebRequest request = HttpWebRequest.CreateHttp(link);
+            request.Method = "PUT";
+            request.ContentType = "application/json;charset=UTF-8";
+            byte[] byteArr = Encoding.UTF8.GetBytes(updateDonVi);
+            request.ContentLength = byteArr.Length;
+            Stream dataStream = request.GetRequestStream();
+            dataStream.Write(byteArr, 0, byteArr.Length);
+            dataStream.Close();
+            DataContractJsonSerializer js = new DataContractJsonSerializer(typeof(bool));
+            object data = js.ReadObject(request.GetResponse().GetResponseStream());
+            bool result = (bool)data;
+            if (result)
+            {
+                MessageBox.Show("Sua don vi thanh cong");
+                Clear();
+                getDonVis();
+                getDonVi();
+            }
+            else
+            {
+                MessageBox.Show("Sua don vi that bai");
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string deleteDonVi = "?madv=" + txtMaDV.Text;
+            string link = "http://localhost/qlluong/api/donvi/" + deleteDonVi;
+            HttpWebRequest request = HttpWebRequest.CreateHttp(link);
+            request.Method = "DELETE";
+            request.ContentType = "application/json;charset=UTF-8";
+            byte[] byteArr = Encoding.UTF8.GetBytes(deleteDonVi);
+            request.ContentLength = byteArr.Length;
+            Stream dataStream = request.GetRequestStream();
+            dataStream.Write(byteArr, 0, byteArr.Length);
+            dataStream.Close();
+            DataContractJsonSerializer js = new DataContractJsonSerializer(typeof(bool));
+            object data = js.ReadObject(request.GetResponse().GetResponseStream());
+            bool result = (bool)data;
+            if (result)
+            {
+                MessageBox.Show("Xoa don vi thanh cong");
+                Clear();
+                getDonVis();
+                getDonVi();
+
+            }
+            else
+            {
+                MessageBox.Show("Xoa don vi that bai");
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            DonVi dv = new DonVi();
+            dv.MaDonVi = Int32.Parse(txtMaDV.Text);
+            dv.TenDonVi = txtTenDV.Text;
+            string postDonVi = string.Format("?madv={0}&tendv={1}", dv.MaDonVi, dv.TenDonVi);
+            string link = "http://localhost/qlluong/api/donvi/" + postDonVi;
+            HttpWebRequest request = HttpWebRequest.CreateHttp(link);
+            request.Method = "POST";
+            request.ContentType = "application/json;charset=UTF-8";
+            byte[] byteArr = Encoding.UTF8.GetBytes(postDonVi);
+            request.ContentLength = byteArr.Length;
+            Stream dataStream = request.GetRequestStream();
+            dataStream.Write(byteArr, 0, byteArr.Length);
+            dataStream.Close();
+            DataContractJsonSerializer js = new DataContractJsonSerializer(typeof(bool));
+            object data = js.ReadObject(request.GetResponse().GetResponseStream());
+            bool result = (bool)data;
+            if (result)
+            {
+                MessageBox.Show("Them don vi thanh cong");
+                Clear();
+                getDonVis();
+                getDonVi();
+            }
+            else
+            {
+                MessageBox.Show("Them don vi that bai");
+            }
+        }
     }
 }

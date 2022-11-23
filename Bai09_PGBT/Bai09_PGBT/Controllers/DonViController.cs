@@ -33,7 +33,7 @@ namespace Bai09_PGBT.Controllers
         }
 
         [HttpPost]
-        public DonVi ThemDonVi(int madv, string tendv)
+        public bool ThemDonVi(int madv, string tendv)
         {
             try
             {
@@ -43,14 +43,64 @@ namespace Bai09_PGBT.Controllers
                 dv.TenDonVi = tendv;
                 dataContext.DonVis.InsertOnSubmit(dv);
                 dataContext.SubmitChanges();
-                //dv.NhanViens = null;
-                return dv;
+                dv.NhanViens = null;
+                return true;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
             }
-            return null;
+            return false;
+        }
+
+        [HttpDelete]
+        public bool XoaDonVi(int madv)
+        {
+            try
+            {
+                DataBaseDataContext dataContext = new DataBaseDataContext();
+                DonVi dv = dataContext.DonVis.FirstOrDefault(x => x.MaDonVi == madv);
+                if(dv != null)
+                {
+                    dataContext.DonVis.DeleteOnSubmit(dv);
+                    dataContext.SubmitChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+               
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return false;
+        }
+
+        [HttpPut]
+        public bool SuaDonVi(int madv, string tendv)
+        {
+            try
+            {
+                DataBaseDataContext dataContext = new DataBaseDataContext();
+                DonVi dv = dataContext.DonVis.FirstOrDefault(x => x.MaDonVi == madv);
+                if(dv != null)
+                {
+                    dv.TenDonVi = tendv;
+                    dataContext.SubmitChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return false;
         }
 
     }

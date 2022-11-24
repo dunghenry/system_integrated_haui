@@ -65,3 +65,6 @@ D:\xml_haui\QLBanHangV1\QLBanHangV1\bin\Microsoft.CodeDom.Providers.DotNetCompil
 D:\xml_haui\QLBanHangV1\QLBanHangV1\obj\Debug\QLBanHangV1.csproj.CopyComplete
 D:\xml_haui\QLBanHangV1\QLBanHangV1\obj\Debug\QLBanHangV1.dll
 D:\xml_haui\QLBanHangV1\QLBanHangV1\obj\Debug\QLBanHangV1.pdb
+D:\xml_haui\QLBanHangV1\QLBanHangV1\bin\System.Web.Cors.dll
+D:\xml_haui\QLBanHangV1\QLBanHangV1\bin\System.Web.Http.Cors.dll
+D:\xml_haui\QLBanHangV1\QLBanHangV1\bin\System.Web.Http.Cors.xml

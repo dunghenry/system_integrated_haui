@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema3"
+    targetNamespace="http://tempuri.org/XMLSchema3.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema3.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema3.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="sidType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[S]{1}([0-9]){3}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z]{0,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dobType">
+		<xs:restriction base="xs:date"></xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="markType">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="0"></xs:minInclusive>
+			<xs:maxInclusive value="10"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="studentType">
+		<xs:sequence>
+			<xs:element name="sid" type="mstns:sidType"></xs:element>
+			<xs:element name="name" type="mstns:nameType"></xs:element>
+			<xs:element name="dob" type="mstns:dobType"></xs:element>
+			<xs:element name="mark" type="mstns:markType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="StudentType">
+		<xs:sequence>
+			<xs:element name="student" type="mstns:studentType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="class" type="mstns:StudentType"></xs:element>
+</xs:schema>

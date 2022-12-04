@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLSV xmlns="http://tempuri.org/XMLSchema1.xsd">
+	<Sinhvien masv="sinhvien01">
+		<Hoten>Nguyen Van Tuan</Hoten>
+		<Ngaysinh>1998-08-12</Ngaysinh>
+		<Gioitinh>Nam</Gioitinh>
+		<Que>Ha noi</Que>
+		<Trinhdo>Dai hoc</Trinhdo>
+		<Hesodiem>3.12</Hesodiem>
+	</Sinhvien>
+	<Sinhvien masv="sinhvien02">
+		<Hoten>Nguyen Tuan Anh</Hoten>
+		<Ngaysinh>1995-02-02</Ngaysinh>
+		<Gioitinh>Nam</Gioitinh>
+		<Que>Bac Ninh</Que>
+		<Trinhdo>Dai hoc</Trinhdo>
+		<Hesodiem>3.12</Hesodiem>
+	</Sinhvien>
+
+</QLSV>

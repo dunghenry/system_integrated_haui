@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	id="DangKy"
+	targetNamespace="http://tempuri.org/DangKy.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DangKy.xsd"
+    xmlns:mstns="http://tempuri.org/DangKy.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="manvType">
+		<xs:restriction base="xs:ID">
+			<xs:length value="5"></xs:length>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="lydoType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="P"></xs:enumeration>
+			<xs:enumeration value="O"></xs:enumeration>
+			<xs:enumeration value="TS"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="trangthaiType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Chờ phê duyệt"></xs:enumeration>
+			<xs:enumeration value="Đã phê duyệt"></xs:enumeration>
+			<xs:enumeration value="Không được phê duyệt"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="ngaylvType">
+		<xs:restriction base="xs:date">
+			<xs:minInclusive value="2022-01-01"></xs:minInclusive>
+			<xs:maxInclusive value="2022-01-31"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="nvType">
+		<xs:sequence>
+			<xs:element name="LyDo" type="mstns:lydoType"></xs:element>
+			<xs:element name="DonVi" type="xs:float"></xs:element>
+			<xs:element name="TrangThai" type="mstns:trangthaiType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaNV" use="required" type="mstns:manvType"></xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="ngaylamviecType">
+		<xs:sequence>
+			<xs:element name="NhanVien" type="mstns:nvType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Ngay" type="mstns:ngaylvType" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="dangkyType">
+		<xs:sequence>
+			<xs:element name="NgayLamViec" type="mstns:ngaylamviecType" maxOccurs="31"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Loai" type="xs:string" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:element name="DangKy" type="mstns:dangkyType"></xs:element>
+</xs:schema>

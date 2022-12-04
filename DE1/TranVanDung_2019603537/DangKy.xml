@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DangKy.xslt"?>
+<DangKy xmlns="http://tempuri.org/DangKy.xsd" Loai="Ngày nghỉ">
+	<NgayLamViec Ngay="2022-01-01">
+		<NhanVien MaNV="S0001">
+			<LyDo>P</LyDo>
+			<DonVi>0.5</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="S0002">
+			<LyDo>O</LyDo>
+			<DonVi>0.8</DonVi>
+			<TrangThai>Đã phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="S0003">
+			<LyDo>TS</LyDo>
+			<DonVi>1</DonVi>
+			<TrangThai>Không được phê duyệt</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+	<NgayLamViec Ngay="2022-01-18">
+		<NhanVien MaNV="S0004">
+			<LyDo>P</LyDo>
+			<DonVi>0.7</DonVi>
+			<TrangThai>Chờ phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="S0005">
+			<LyDo>O</LyDo>
+			<DonVi>1.3</DonVi>
+			<TrangThai>Đã phê duyệt</TrangThai>
+		</NhanVien>
+		<NhanVien MaNV="S0006">
+			<LyDo>TS</LyDo>
+			<DonVi>2</DonVi>
+			<TrangThai>Không được phê duyệt</TrangThai>
+		</NhanVien>
+	</NgayLamViec>
+</DangKy>

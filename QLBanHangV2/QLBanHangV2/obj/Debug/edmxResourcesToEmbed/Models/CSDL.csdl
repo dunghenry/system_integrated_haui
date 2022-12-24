@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HANGModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DanhMuc">
+    <Key>
+      <PropertyRef Name="MaDanhMuc" />
+    </Key>
+    <Property Name="MaDanhMuc" Type="Int32" Nullable="false" />
+    <Property Name="TenDanhMuc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPhams" Relationship="Self.FK__SanPham__MaDanhM__38996AB5" FromRole="DanhMuc" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="Ma" />
+    </Key>
+    <Property Name="Ma" Type="Int32" Nullable="false" />
+    <Property Name="Ten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DonGia" Type="Double" Nullable="false" />
+    <Property Name="MaDanhMuc" Type="Int32" />
+    <NavigationProperty Name="DanhMuc" Relationship="Self.FK__SanPham__MaDanhM__38996AB5" FromRole="SanPham" ToRole="DanhMuc" />
+  </EntityType>
+  <Association Name="FK__SanPham__MaDanhM__38996AB5">
+    <End Role="DanhMuc" Type="Self.DanhMuc" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DanhMuc">
+        <PropertyRef Name="MaDanhMuc" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaDanhMuc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HANGEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DanhMucs" EntityType="Self.DanhMuc" />
+    <EntitySet Name="SanPhams" EntityType="Self.SanPham" />
+    <AssociationSet Name="FK__SanPham__MaDanhM__38996AB5" Association="Self.FK__SanPham__MaDanhM__38996AB5">
+      <End Role="DanhMuc" EntitySet="DanhMucs" />
+      <End Role="SanPham" EntitySet="SanPhams" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

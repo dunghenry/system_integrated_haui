@@ -1,0 +1,17 @@
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.exe
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.deps.json
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.runtimeconfig.json
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.dll
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.pdb
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.AssemblyReference.cache
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.Form1.resources
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.GenerateResource.cache
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.GeneratedMSBuildEditorConfig.editorconfig
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.AssemblyInfoInputs.cache
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.AssemblyInfo.cs
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.CoreCompileInputs.cache
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.dll
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\refint\TranVanDung_2019603537.dll
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.pdb
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.genruntimeconfig.cache
+D:\THHT\Form\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\ref\TranVanDung_2019603537.dll

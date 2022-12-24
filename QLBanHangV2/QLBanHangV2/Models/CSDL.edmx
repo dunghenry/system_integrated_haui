@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HANGModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DanhMuc">
+          <Key>
+            <PropertyRef Name="MaDanhMuc" />
+          </Key>
+          <Property Name="MaDanhMuc" Type="int" Nullable="false" />
+          <Property Name="TenDanhMuc" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SanPham">
+          <Key>
+            <PropertyRef Name="Ma" />
+          </Key>
+          <Property Name="Ma" Type="int" Nullable="false" />
+          <Property Name="Ten" Type="nvarchar" MaxLength="255" />
+          <Property Name="DonGia" Type="float" Nullable="false" />
+          <Property Name="MaDanhMuc" Type="int" />
+        </EntityType>
+        <Association Name="FK__SanPham__MaDanhM__38996AB5">
+          <End Role="DanhMuc" Type="Self.DanhMuc" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DanhMuc">
+              <PropertyRef Name="MaDanhMuc" />
+            </Principal>
+            <Dependent Role="SanPham">
+              <PropertyRef Name="MaDanhMuc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HANGModelStoreContainer">
+          <EntitySet Name="DanhMuc" EntityType="Self.DanhMuc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SanPham" EntityType="Self.SanPham" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__SanPham__MaDanhM__38996AB5" Association="Self.FK__SanPham__MaDanhM__38996AB5">
+            <End Role="DanhMuc" EntitySet="DanhMuc" />
+            <End Role="SanPham" EntitySet="SanPham" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HANGModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DanhMuc">
+          <Key>
+            <PropertyRef Name="MaDanhMuc" />
+          </Key>
+          <Property Name="MaDanhMuc" Type="Int32" Nullable="false" />
+          <Property Name="TenDanhMuc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="SanPhams" Relationship="Self.FK__SanPham__MaDanhM__38996AB5" FromRole="DanhMuc" ToRole="SanPham" />
+        </EntityType>
+        <EntityType Name="SanPham">
+          <Key>
+            <PropertyRef Name="Ma" />
+          </Key>
+          <Property Name="Ma" Type="Int32" Nullable="false" />
+          <Property Name="Ten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DonGia" Type="Double" Nullable="false" />
+          <Property Name="MaDanhMuc" Type="Int32" />
+          <NavigationProperty Name="DanhMuc" Relationship="Self.FK__SanPham__MaDanhM__38996AB5" FromRole="SanPham" ToRole="DanhMuc" />
+        </EntityType>
+        <Association Name="FK__SanPham__MaDanhM__38996AB5">
+          <End Role="DanhMuc" Type="Self.DanhMuc" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DanhMuc">
+              <PropertyRef Name="MaDanhMuc" />
+            </Principal>
+            <Dependent Role="SanPham">
+              <PropertyRef Name="MaDanhMuc" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HANGEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DanhMucs" EntityType="Self.DanhMuc" />
+          <EntitySet Name="SanPhams" EntityType="Self.SanPham" />
+          <AssociationSet Name="FK__SanPham__MaDanhM__38996AB5" Association="Self.FK__SanPham__MaDanhM__38996AB5">
+            <End Role="DanhMuc" EntitySet="DanhMucs" />
+            <End Role="SanPham" EntitySet="SanPhams" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HANGModelStoreContainer" CdmEntityContainer="HANGEntities">
+          <EntitySetMapping Name="DanhMucs">
+            <EntityTypeMapping TypeName="HANGModel.DanhMuc">
+              <MappingFragment StoreEntitySet="DanhMuc">
+                <ScalarProperty Name="MaDanhMuc" ColumnName="MaDanhMuc" />
+                <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SanPhams">
+            <EntityTypeMapping TypeName="HANGModel.SanPham">
+              <MappingFragment StoreEntitySet="SanPham">
+                <ScalarProperty Name="Ma" ColumnName="Ma" />
+                <ScalarProperty Name="Ten" ColumnName="Ten" />
+                <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+                <ScalarProperty Name="MaDanhMuc" ColumnName="MaDanhMuc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,17 @@
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.exe
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.deps.json
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.runtimeconfig.json
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.dll
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\bin\Debug\net6.0-windows\TranVanDung_2019603537.pdb
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.AssemblyReference.cache
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.Form1.resources
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.GenerateResource.cache
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.GeneratedMSBuildEditorConfig.editorconfig
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.AssemblyInfoInputs.cache
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.AssemblyInfo.cs
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.csproj.CoreCompileInputs.cache
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.dll
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\refint\TranVanDung_2019603537.dll
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.pdb
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\TranVanDung_2019603537.genruntimeconfig.cache
+D:\xml_haui\DETHI\FORM\TranVanDung_2019603537\TranVanDung_2019603537\obj\Debug\net6.0-windows\ref\TranVanDung_2019603537.dll
